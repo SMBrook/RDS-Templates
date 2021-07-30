@@ -154,7 +154,7 @@
     "sslDeploymentexistingRDSTemplate": "azuredeploy.json",
     "sslDeploymentexistingRDS": "configureSSLonRDSDeployment",
     "sslDeploymentURL": "[concat(variables('sslDeploymentexistingRDSLocation'),'/',variables('sslDeploymentexistingRDSTemplate'))]",
-    "RdcbHaDeploymentexistingRDSLocation": "[concat(parameters('_artifactsLocation'),'rds-deployment-ha-broker')]",
+    "RdcbHaDeploymentexistingRDSLocation": "https://github.com/Azure/RDS-Templates/tree/master/rds-deployment-ha-broker",
     "RdcbHaDeploymentexistingRDSTemplate": "azuredeploy.json",
     "RdcbHaDeploymentexistingRDS": "configureRdcbHaonRDSDeployment",
     "RdcbHaDeploymentURL": "[concat(variables('RdcbHaDeploymentexistingRDSLocation'),'/',variables('RdcbHaDeploymentexistingRDSTemplate'))]",
